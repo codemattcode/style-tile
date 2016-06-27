@@ -1,0 +1,342 @@
+@import style-baselines
+// LET THERE BE JUSTICE
+.row
+  overflow-x: hidden
+.col
+  width: 100%
+  margin: 1.4% 0 0% 1.6%
+
+.spacer
+  margin-top: 50px
+  +mobile
+    margin-top: 0
+.center
+  text-align: center
+
+.title, .fonts, .colours, .buttons, .keywords, .photography, .patterns, .icons, .social, .logoLight, .logoDark
+  height: 280px
+  padding: 30px
+.title, .fonts, .colours, .buttons, .keywords, .photography, .patterns, .icons, .social
+  +mobile
+    height: auto
+  // h6
+  //   text-transform: uppercase
+  //   font-size: .5rem
+  p
+    padding: 5px
+    font-size: .5rem
+.colours
+  background-color: #ede8f6
+.buttons
+  background-color: #dff7fa
+.keywords
+  background-color: #e8f4e9
+.photography
+  background-color: #fef3de
+.patterns
+  background-color: #fbe9e7
+.icons
+  background-color: #f3e5f5
+.social
+  background-color: #e0f5ff
+.colour-card
+  margin: 10px
+  float: left
+  +mobile
+    float: none
+    text-align: center
+  .circle
+    height: 100px
+    width: 100px
+    border-radius: 100px
+    margin: 20px 0
+    +mobile
+      height: 40px
+      width: auto
+      margin: 10px
+  h4,h5
+    // font-size: .5rem
+    text-align: center
+    margin-bottom: 5px
+    +mobile
+      font-size: .6rem
+      display: inline-block
+  h4
+    +mobile
+      margin-right: 20px    
+.title
+  background-color: #e1f2ff
+  #description-title
+    text-transform: uppercase
+    font-weight: bold
+    font-size: 1rem
+    margin-bottom: 5px
+  #description-text
+    font-size: .7rem
+    margin-top: 15px
+.logoLight, .logoDark
+  h6
+    display: inline-block
+    padding: 5px
+.logoLight
+  background-color: $offWhite
+  h6
+    background-color: $offWhite
+.logoDark
+  h6
+    background-color: $notBlack
+    color: white
+.fonts
+  background-color: #fef7df
+  h1,h2,h3
+    padding: 10px
+    text-transform: uppercase
+  h1  
+    font-size: 2rem
+  h2  
+    font-size: 1.5rem
+  h3  
+    font-size: 1rem
+  #para
+    padding: 10px
+    font-size: .7rem
+.fonts-row
+  +mobile
+    margin-top: 15px
+.colours-row
+  +mobile
+    margin-top: 30px
+.buttons
+  .buttons-row
+    margin-top: 20px
+    +mobile
+      margin-top: 0
+    padding: 30px
+  .links-row
+    margin-top: 10px
+    +mobile
+      margin-top: 0
+    padding: 10px
+    +mobile
+      padding: 0
+  a
+    margin-right: 30px
+    +mobile
+      margin-right: 10px
+    &:last-of-type
+      margin-right: 0
+    font-size: 1rem
+  .btn
+    display: inline-block
+    +mobile
+      display: block
+      width: 100%
+      margin-top: 15px
+      &:first-of-type
+        margin-top: 0
+    // border: 0px solid #fff
+    border-radius: 0.1875em
+    padding: 10px 20px
+    // background: #000
+    font-size: 1rem
+    text-decoration: none
+    // color: white
+    cursor: pointer
+    &:hover
+      background-color: #ff0000
+    +mobile
+      font-size: .8rem
+      padding: 5px 10px
+.keywords
+  .keyword-row
+    // margin-top: 20px
+    padding: 30px
+.photography
+  .photography-row
+    margin-top: 20px
+    +mobile
+      margin-top: 0
+    padding: 30px
+  .pics
+    height: 80px
+    width: 80px
+    border-radius: 50px
+    +mobile
+      width: 100%
+      height: auto
+      border-radius: 6px
+      margin-top: 10px
+      &:first-of-type
+        margin-top: 0
+.patterns
+  .patterns-row
+    margin-top: 20px
+    +mobile
+      margin-top: 0
+    padding: 30px
+  .patts
+    height: 80px
+    width: 80px
+    border-radius: 50px
+    +mobile
+      width: 100%
+      height: auto
+      border-radius: 25px
+      margin-top: 10px
+      &:first-of-type
+        margin-top: 0
+.icons
+  .icons-row
+    margin-top: 40px
+    +mobile
+      margin-top: 0
+    padding: 30px
+  .icons-img
+    height: 50px
+    width: 50px
+    +mobile
+      height: 30px
+      width: 30px
+    border-radius: 50px
+.social
+  .social-row
+    margin-top: 40px
+    +mobile
+      margin-top: 0
+    padding: 30px
+
+/*  ******* END GENERIC LAYOUT *******  */
+/*  ******* ******* ******* ******* ******* ******* ******* ******* ******* ******* */
+/*  ******* ******* ******* ******* ******* ******* ******* ******* ******* ******* */
+/*  ******* ******* ******* ******* ******* ******* ******* ******* ******* ******* */
+
+
+/*  ******* LOGOS *******  */
+
+.logoLight
+  background: url("../img/logo-white.png")
+.logoDark
+  background: url("../img/logo-dark.png")
+
+/*  ******* FONTS *******  */
+
+.fonts
+  h1
+    font-family: $robo
+  h2
+    font-family: $lato
+  h3
+    font-family: $meri
+  #para
+    font-family: $fira
+
+/*  ******* COLOURS *******  */
+
+$swatch1: #f5a749
+$swatch2: #ea5c2c
+$swatch3: #2b90b3
+$swatch4: #a2c553
+
+.colours
+  .swatch1
+    background-color: $swatch1
+  .swatch2
+    background-color: $swatch2
+  .swatch3
+    background-color: $swatch3
+  .swatch4
+    background-color: $swatch4
+/*  ******* BUTTONS & LINKS *******  */
+
+.buttons
+  .button1
+    color: $swatch1
+    background-color: $swatch2
+    &:hover
+      background-color: $swatch3
+  .button2
+    color: $swatch2
+    background-color: $swatch3
+    &:hover
+      background-color: $swatch1
+  .button3
+    color: $swatch3
+    background-color: $swatch1
+    &:hover
+      background-color: $swatch2
+  a.a-1
+    color: $swatch1
+    &:hover
+      color: $swatch3
+  a.a-2
+    color: $swatch2
+    &:hover
+      color: $swatch1
+  a.a-3
+    color: $swatch3
+    &:hover
+      color: $swatch2
+
+/*  ******* KEYWORDS *******  */
+
+.keywords
+  .keyword1
+    font-family: $robo
+    color: $swatch1
+    font-size: 2rem
+  .keyword2
+    font-family: $lato
+    color: $swatch2
+    font-size: 1.5rem
+  .keyword3
+    font-family: $meri
+    color: $swatch3
+    font-size: 2.1rem
+  .keyword4
+    font-family: $fira
+    color: $swatch4
+    font-size: 1.4rem
+  .keyword4
+    font-family: $fira
+    color: $swatch4
+    font-size: 1.9rem
+  .keyword5
+    font-family: $robo
+    color: purple
+    font-size: 2.2rem
+
+/*  ******* PHOTOGRAPHY *******  */
+// .photography
+  // look in generic styling above
+
+
+
+/*  ******* PATTERNS *******  */
+// .patterns
+  // look in generic styling above  
+  
+
+
+/*  ******* ICONS *******  */
+// .icons
+  // look in generic styling above  
+
+
+
+/*  ******* SOCIAL *******  */
+// .social
+.social-icon 
+  color: $swatch2
+
+
+.footer-link
+  margin-bottom: 50px
+  +mobile
+    margin: 50px
+  text-align: center
+  a
+    color: $swatch3
+    &:hover
+      color: $swatch1
+    +mobile
+      font-size: .8rem
