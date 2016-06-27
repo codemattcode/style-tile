@@ -12,5 +12,6 @@
 
 make logos transparent for more bg colour flexibility
 
-```
+add functionality : in-browser user upload media which replaces 'compartment' data
 
+```
