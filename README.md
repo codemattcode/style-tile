@@ -15,5 +15,7 @@ make logos transparent for more bg colour flexibility
 add font names and definitions
 
 add rgba hsl values to colours
-```
 
+add functionality : in-browser user upload media which replaces 'compartment' data
+
+```
