@@ -12,5 +12,8 @@
 
 make logos transparent for more bg colour flexibility
 
+add font names and definitions
+
+add rgba hsl values to colours
 ```
 
